@@ -296,3 +296,185 @@ body.light {
 #backToTop:hover {
   transform: translateY(-4px);
 }
+
+/* =====================
+   CTA
+===================== */
+.cta {
+  background: linear-gradient(
+    135deg,
+    rgba(56,189,248,0.15),
+    rgba(56,189,248,0.05)
+  );
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.cta p {
+  max-width: 600px;
+  margin: 1rem auto 2rem;
+  color: var(--muted);
+}
+
+.cta-btn {
+  display: inline-block;
+  padding: 0.75rem 1.75rem;
+  background: var(--accent);
+  color: #fff;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.cta-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.35);
+}
+
+.contact-section {
+  background: #0f172a;
+  color: #e5e7eb;
+}
+
+.contact-intro {
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  text-align: center;
+  color: #cbd5f5;
+}
+
+.contact-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact-card {
+  background: #020617;
+  border: 1px solid #1e293b;
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-4px);
+  border-color: #38bdf8;
+}
+
+.contact-title {
+  display: block;
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 0.25rem;
+}
+
+.contact-desc {
+  font-size: 0.9rem;
+  color: #94a3b8;
+}
+/* =====================
+   TEXT ALIGNMENT
+===================== */
+/* .section p,
+.post p,
+.skill-card p,
+.contact-intro {
+  text-align: justify;
+  text-justify: inter-word;
+} */
+.section p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* =====================
+   FOOTER
+===================== */
+.footer {
+  border-top: 1px solid var(--border);
+  margin-top: 6rem;
+  background: linear-gradient(
+    to bottom,
+    rgba(15, 23, 42, 0.4),
+    rgba(2, 6, 23, 0.9)
+  );
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 3rem;
+  padding: 4rem 1.5rem 2rem;
+}
+
+.footer-logo {
+  font-weight: 700;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+}
+
+.footer-desc {
+  margin-top: 0.75rem;
+  max-width: 320px;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.footer-title {
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  margin-bottom: 0.75rem;
+  display: block;
+}
+
+.footer-links a,
+.footer-social a {
+  display: block;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+  color: var(--text);
+  font-size: 0.9rem;
+  transition: color 0.2s ease;
+}
+
+.footer-links a:hover,
+.footer-social a:hover {
+  color: var(--accent);
+}
+
+.footer-bottom {
+  border-top: 1px solid var(--border);
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+/* =====================
+   FOOTER RESPONSIVE
+===================== */
+@media (max-width: 768px) {
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .footer-desc {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+

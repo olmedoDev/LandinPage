@@ -4,132 +4,256 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>OlmedoDev — Desarrollo con criterio</title>
+  <title>OlmedoDev — Backend, Laravel y sistemas Linux</title>
 
-  <meta name="description" content="OlmedoDev. Desarrollo web, sistemas e infraestructura con experiencia real y visión a futuro." />
-  <meta name="author" content="José Ulises Olmedo" />
+  <meta name="description"
+content="Desarrollador backend especializado en Laravel, bases de datos y servidores Linux. Experiencia real en sistemas e infraestructura." />
+  <meta name="author" content="Ulises Olmedo (OlmedoDev)">
+  <meta name="keywords" content="Ulises Olmedo, OlmedoDev, Laravel, backend developer, PHP, Linux servers">
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#38bdf8" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="OlmedoDev — Desarrollo web sólido" />
+  <meta property="og:description"
+        content="Desarrollo web, backend y sistemas con experiencia real." />
+  <meta property="og:url" content="https://olmedodev.dev" />
+  <meta property="og:image" content="https://olmedodev.dev/assets/og-image.jpg" />
+  <meta property="og:site_name" content="OlmedoDev" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="OlmedoDev — Desarrollo web sólido" />
+  <meta name="twitter:description"
+        content="Backend, sistemas y servidores con criterio." />
+  <meta name="twitter:image" content="https://olmedodev.dev/assets/og-image.jpg" />
+  <link rel="canonical" href="https://olmedodev.dev/" />
+
 
   <link rel="stylesheet" href="css/style.css" />
 </head>
+
 <body>
 
-<header class="container">
-  <nav class="nav">
-    <span class="logo">OlmedoDev</span>
+  <!-- HEADER -->
+  <header class="container">
+    <nav class="nav">
+      <span class="logo">OlmedoDev</span>
 
-    <div class="nav-links">
+      <div class="nav-links">
+        <a href="#about">Sobre mí</a>
+        <a href="#skills">Qué hago</a>
+        <a href="#projects">Proyectos</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contacto</a>
+      </div>
+
+      <button id="themeToggle" class="theme-btn" aria-label="Cambiar tema">
+        🌙
+      </button>
+    </nav>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+
+    <!-- HERO -->
+    <section class="hero section" data-section>
+      <div class="container hero-grid">
+
+        <div class="hero-text">
+          <h1>Desarrollo web sólido, enfocado en backend y sistemas.</h1>
+          <p class="subtitle">
+            Soy Ulises Olmedo (OlmedoDev), desarrollador web especializado en
+            Laravel, bases de datos y servidores Linux.
+          </p>
+        </div>
+
+        <div class="hero-profile">
+          <img src="assets/profile.jpg" alt="Ulises Olmedo">
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section">
+      <div class="container cta" data-section>
+        <h2>¿Trabajamos juntos?</h2>
+        <p>
+          Si buscas a alguien con experiencia real en desarrollo web,
+          sistemas e infraestructura, hablemos.
+        </p>
+        <a href="#contact" class="cta-btn">Contáctame</a>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section" data-section>
+      <div class="container">
+        <h2>Acerca de mí</h2>
+
+        <p>
+          Soy <strong>Ulises Olmedo</strong>, desarrollador web especializado en
+          <strong>backend</strong>, <strong>Laravel</strong>,
+          <strong>bases de datos</strong> y <strong>servidores Linux</strong>.
+        </p>
+
+        <p>
+          Mi camino no fue el tradicional. Comencé en áreas técnicas y operativas
+          mientras construía mi perfil en sistemas y desarrollo.
+          Esa experiencia me dio criterio y responsabilidad real.
+        </p>
+
+        <p>
+          He trabajado en desarrollo web, infraestructura, redes y entornos Linux,
+          lo que me permite entender los sistemas de punta a punta.
+        </p>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section" data-section>
+      <div class="container">
+        <h2>Servicios técnicos</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3>Backend en Laravel</h3>
+            <p>
+              Desarrollo de aplicaciones web robustas,
+              orientadas a producción, mantenimiento y escalabilidad real.
+            </p>
+          </div>
+
+          <div class="skill-card">
+            <h3>Bases de Datos</h3>
+            <p>Diseño, optimización y mantenimiento relacional.</p>
+          </div>
+
+          <div class="skill-card">
+            <h3>Linux & Servidores</h3>
+            <p>Administración, despliegue y configuración.</p>
+          </div>
+
+          <div class="skill-card">
+            <h3>Infraestructura & Redes</h3>
+            <p>Hardware, redes y pruebas técnicas.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section" data-section>
+      <div class="container">
+        <h2>Proyectos</h2>
+
+        <div class="post">
+          <h3>OlmedoDev</h3>
+          <p class="post-meta">Marca personal</p>
+          <p>
+            Plataforma donde documento experiencia real en desarrollo
+            y sistemas con visión a futuro.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- BLOG -->
+    <section id="blog" class="section" data-section>
+      <div class="container">
+        <h2>Blog</h2>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section" data-section>
+      <div class="container">
+        <h2>Contacto</h2>
+
+        <p class="contact-intro">
+          ¿Tienes un proyecto o necesitas apoyo técnico?
+        </p>
+
+        <div class="contact-links">
+          <a href="#" class="contact-card">
+            <span class="contact-title">GitHub</span>
+            <span class="contact-desc">Código y proyectos</span>
+          </a>
+
+          <a href="#" class="contact-card">
+            <span class="contact-title">LinkedIn</span>
+            <span class="contact-desc">Perfil profesional</span>
+          </a>
+
+          <a href="mailto:contacto@olmedodev.dev" class="contact-card">
+            <span class="contact-title">Email</span>
+            <span class="contact-desc">contacto@olmedodev.dev</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+<footer class="footer">
+  <div class="container footer-grid">
+
+    <div class="footer-brand">
+      <span class="footer-logo">OlmedoDev</span>
+      <p class="footer-desc">
+        Desarrollo web sólido, backend y sistemas.
+        Experiencia real en producción.
+      </p>
+    </div>
+
+    <div class="footer-links">
+      <span class="footer-title">Secciones</span>
       <a href="#about">Sobre mí</a>
-      <a href="#skills">Qué hago</a>
+      <a href="#skills">Servicios</a>
       <a href="#projects">Proyectos</a>
       <a href="#blog">Blog</a>
       <a href="#contact">Contacto</a>
     </div>
 
-    <button id="themeToggle" class="theme-btn">🌙</button>
-  </nav>
-</header>
-
-<main class="container">
-
-  <!-- HERO -->
-  <section class="hero" data-section>
-    <div class="hero-grid">
-
-      <div class="hero-text">
-        <h1>Desarrollo con criterio,<br>no con humo.</h1>
-        <p class="subtitle">
-          Soy José Ulises Olmedo. Desarrollador web y especialista en sistemas.
-          Construyo soluciones reales desde la experiencia.
-        </p>
-      </div>
-
-      <div class="hero-profile">
-        <img src="assets/profile.jpg" alt="José Ulises Olmedo">
-      </div>
-
+    <div class="footer-social">
+      <span class="footer-title">Contacto</span>
+      <a href="https://github.com/" target="_blank">GitHub</a>
+      <a href="https://linkedin.com/" target="_blank">LinkedIn</a>
+      <a href="mailto:contacto@olmedodev.dev">Email</a>
     </div>
-  </section>
 
-  <!-- ABOUT -->
-  <section id="about" class="section" data-section>
-    <h2>Sobre mí</h2>
-    <p>
-      Mi camino no fue directo. He trabajado desde limpieza pública hasta desarrollo web,
-      pasando por infraestructura, servidores y soporte técnico.
-    </p>
-    <p>
-      Hoy me especializo en <strong>Laravel, bases de datos y Linux</strong>,
-      con una visión clara: entender primero el problema, luego escribir código.
-    </p>
-  </section>
+  </div>
 
-  <!-- SKILLS -->
-  <section id="skills" class="section" data-section>
-    <h2>Qué hago</h2>
-
-    <div class="skills-grid">
-      <div class="skill-card">
-        <h3>Desarrollo Web</h3>
-        <p>Laravel, PHP, HTML, CSS y JavaScript con enfoque mantenible.</p>
-      </div>
-
-      <div class="skill-card">
-        <h3>Bases de Datos</h3>
-        <p>Diseño, optimización y mantenimiento de bases de datos relacionales.</p>
-      </div>
-
-      <div class="skill-card">
-        <h3>Linux & Servidores</h3>
-        <p>Administración de servidores, despliegue y seguridad.</p>
-      </div>
-
-      <div class="skill-card">
-        <h3>Infraestructura</h3>
-        <p>Redes, fibra óptica, hardware y pruebas técnicas.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- PROJECTS -->
-  <section id="projects" class="section" data-section>
-    <h2>Proyectos</h2>
-
-    <div class="post">
-      <h3>OlmedoDev</h3>
-      <p class="post-meta">Marca personal / Plataforma técnica</p>
-      <p>
-        Espacio donde documento experiencia real en desarrollo,
-        sistemas e infraestructura con visión a futuro.
-      </p>
-    </div>
-  </section>
-
-  <!-- BLOG -->
-  <section id="blog" class="section" data-section>
-    <h2>Blog</h2>
-    <!-- Los posts se cargan desde JS -->
-  </section>
-
-  <!-- CONTACT -->
-  <section id="contact" class="section" data-section>
-    <h2>Contacto</h2>
-    <p>Puedes encontrarme en:</p>
-
-    <ul class="links">
-      <li><a href="https://github.com/" target="_blank">GitHub</a></li>
-      <li><a href="https://linkedin.com/" target="_blank">LinkedIn</a></li>
-      <li><a href="mailto:contacto@olmedodev.dev">contacto@olmedodev.dev</a></li>
-    </ul>
-  </section>
-
-</main>
-
-<footer class="container footer">
-  <p>© 2026 OlmedoDev — Hecho con calma y propósito.</p>
+  <div class="footer-bottom">
+    © 2026 OlmedoDev — Todos los derechos reservados.
+  </div>
 </footer>
-<button id="backToTop" aria-label="Volver arriba">↑</button>
 
 
-<script src="js/main.js"></script>
+  <!-- BACK TO TOP -->
+  <button id="backToTop" aria-label="Volver arriba">↑</button>
+
+  <script src="js/main.js"></script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Ulises Olmedo",
+  "alternateName": "OlmedoDev",
+  "url": "https://olmedodev.dev",
+  "jobTitle": "Backend Web Developer",
+  "knowsAbout": [
+    "Laravel",
+    "PHP",
+    "Backend Development",
+    "Linux Servers",
+    "Databases",
+    "Web Infrastructure"
+  ]
+}
+</script>
+
 </body>
 </html>
